@@ -3,24 +3,25 @@
 importer="2d_array_texture"
 type="CompressedTexture2DArray"
 uid="uid://0nta5yuiv40c"
-path.etc2="res://.godot/imported/Chamber173.exr-48afc90122167f762000c50167d7ac3e.etc2.ctexarray"
-path.s3tc="res://.godot/imported/Chamber173.exr-48afc90122167f762000c50167d7ac3e.s3tc.ctexarray"
+path.bptc="res://.godot/imported/Chamber173.exr-48afc90122167f762000c50167d7ac3e.bptc.ctexarray"
 metadata={
-"imported_formats": ["etc2", "s3tc"],
+"imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Rooms/173Chamber/Bake/Chamber173.exr"
-dest_files=["res://.godot/imported/Chamber173.exr-48afc90122167f762000c50167d7ac3e.etc2.ctexarray", "res://.godot/imported/Chamber173.exr-48afc90122167f762000c50167d7ac3e.s3tc.ctexarray"]
+dest_files=["res://.godot/imported/Chamber173.exr-48afc90122167f762000c50167d7ac3e.bptc.ctexarray"]
 
 [params]
 
 compress/mode=2
+compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/channel_pack=1
 mipmaps/generate=false
 mipmaps/limit=-1
